@@ -15,4 +15,4 @@ print(f'Channels: {c}')
 
 cv2.imshow('Window', img)
 cv2.waitKey(0)
-cv2.imwrite(args['output_img'], img)
+# cv2.imwrite(args['output_img'], img)
