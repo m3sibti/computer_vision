@@ -7,6 +7,10 @@ from datasets.simpledatasetloader import SimpleDatasetLoader
 from imutils import paths
 import argparse
 
+"""
+KNN doesn't perform any type of learning
+"""
+
 ap = argparse.ArgumentParser()
 ap.add_argument('-d', '--dataset', required=True, default='../data/shapes')
 ap.add_argument('-n', '--neighbors', type=int, default=1)
